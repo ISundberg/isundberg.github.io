@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+
 <html>
+	
 <head>
 	<title>Isaac Sundberg</title>
   <link href="{{ site.baseurl }}/css/index.css" rel="stylesheet" type="text/css">
 </head>
+	
 <body>
-
+	
 <div id="content" class="col-sm-8">
   {% assign current = page.url | downcase | split: '/' %}
   {% if current[1] == nil %} 
@@ -16,4 +19,5 @@
 </div>
 
 </body>
+	
 </html>
